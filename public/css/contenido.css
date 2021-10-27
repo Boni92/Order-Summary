@@ -1,0 +1,267 @@
+@media screen and (min-width: 375px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/pattern-background-mobile.svg), #e0e8ff;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 709px;
+    width: 375px;
+    border: solid 2px rgba(224, 232, 255, 0); }
+    body .card {
+      width: 323.7px;
+      height: 564.5px;
+      border-radius: 20px;
+      margin: auto;
+      margin-top: 70px;
+      background-color: #ffffff;
+      box-shadow: 0 13px 15px 5px rgba(114, 128, 167, 0.13); }
+      body .card .card_img {
+        height: 157.5px;
+        width: auto;
+        background-image: url("../images/illustration-hero.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px; }
+      body .card .card_text {
+        font-family: 'Red Hat Display', sans-serif;
+        background-color: #ffffff; }
+        body .card .card_text .card_text_title {
+          text-align: center;
+          font-weight: 900;
+          font-size: 23px;
+          color: #1f2f56;
+          margin-top: 37.34px; }
+          body .card .card_text .card_text_title .title {
+            margin: 0;
+            padding: 0; }
+        body .card .card_text .card_text_paragraph {
+          margin: 0;
+          margin-top: 17.18px;
+          text-align: center;
+          font-weight: 500;
+          font-size: 15px;
+          letter-spacing: 0.01em;
+          line-height: 26px;
+          width: 265px;
+          margin-left: auto;
+          margin-right: auto;
+          color: #7280a7; }
+        body .card .card_text .card_text_info {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 24px;
+          width: 278px;
+          height: 81px;
+          background: #f5f7ff;
+          border-radius: 15px; }
+          body .card .card_text .card_text_info .musicimg {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+          body .card .card_text .card_text_info .data {
+            display: flex;
+            flex-direction: column;
+            transform: translateX(-15px);
+            gap: 3.7px;
+            font-size: 14px; }
+            body .card .card_text .card_text_info .data .data_title {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center; }
+              body .card .card_text .card_text_info .data .data_title .data_title_paragrap {
+                margin: 0;
+                color: #1f2f56;
+                font-weight: 900; }
+            body .card .card_text .card_text_info .data .data_price {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center; }
+              body .card .card_text .card_text_info .data .data_price .data_price_number {
+                margin: 0;
+                color: #7280a7; }
+          body .card .card_text .card_text_info .change {
+            font-size: 13px;
+            font-weight: 700; }
+            body .card .card_text .card_text_info .change .change_anchor {
+              color: #3829e0; }
+        body .card .card_text .card_text_pay {
+          margin: 0;
+          text-align: center;
+          margin-top: 23px; }
+          body .card .card_text .card_text_pay .card_text_pay_button {
+            width: 275px;
+            background-color: #3829e0;
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 13px 20px 5px rgba(114, 128, 167, 0.3); }
+            body .card .card_text .card_text_pay .card_text_pay_button a {
+              text-decoration: none; }
+            body .card .card_text .card_text_pay .card_text_pay_button .card_text_pay_button_paragraph {
+              font-size: 14px;
+              font-weight: 700;
+              color: #f5f7ff; }
+        body .card .card_text .card_text_cancel {
+          margin: 0;
+          text-align: center;
+          margin-top: 20px; }
+          body .card .card_text .card_text_cancel .card_text_cancel_button {
+            width: 275px;
+            background-color: transparent;
+            border-radius: 15px;
+            border: none; }
+            body .card .card_text .card_text_cancel .card_text_cancel_button a {
+              text-decoration: none; }
+            body .card .card_text .card_text_cancel .card_text_cancel_button .card_text_cancel_button_paragraph {
+              font-size: 14px;
+              font-weight: 700;
+              color: #7280a7;
+              margin: 0; } }
+
+@media screen and (min-width: 1440px) {
+  body {
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    width: 1440px;
+    background: url(../images/pattern-background-desktop.svg), #e0e8ff;
+    background-position: -30px -70px;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-blend-mode: darken;
+    font-family: 'Red Hat Display', sans-serif; }
+    body .card {
+      width: 447.5px;
+      height: 694.9px;
+      border-radius: 20px;
+      margin-left: 476.25px;
+      margin-right: 476.25px;
+      margin-top: 100px;
+      background-color: #ffffff;
+      box-shadow: 0 13px 15px 5px rgba(114, 128, 167, 0.13); }
+      body .card .card_img {
+        height: 219px;
+        width: auto;
+        background-image: url("../images/illustration-hero.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px; }
+      body .card .card_text {
+        font-family: 'Red Hat Display', sans-serif;
+        background-color: #ffffff; }
+        body .card .card_text .card_text_title {
+          text-align: center;
+          font-weight: 900;
+          font-size: 28px;
+          color: #1f2f56;
+          margin-top: 45.54px; }
+          body .card .card_text .card_text_title .title {
+            margin: 0;
+            padding: 0; }
+        body .card .card_text .card_text_paragraph {
+          margin: 0;
+          margin-top: 17.18px;
+          text-align: center;
+          font-weight: 500;
+          font-size: 15.5px;
+          letter-spacing: 0.01em;
+          line-height: 26px;
+          width: 321px;
+          margin-left: auto;
+          margin-right: auto;
+          color: #7280a7; }
+        body .card .card_text .card_text_info {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 18px;
+          width: 356px;
+          height: 97.5px;
+          background: #f5f7ff;
+          border-radius: 15px; }
+          body .card .card_text .card_text_info .musicimg {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+          body .card .card_text .card_text_info .data {
+            display: flex;
+            flex-direction: column;
+            transform: translateX(-37.7px);
+            gap: 3.7px;
+            font-size: 16.3px; }
+            body .card .card_text .card_text_info .data .data_title {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center; }
+              body .card .card_text .card_text_info .data .data_title .data_title_paragrap {
+                margin: 0;
+                color: #1f2f56;
+                font-weight: 900;
+                word-spacing: 1px;
+                font-stretch: ultra-condensed; }
+            body .card .card_text .card_text_info .data .data_price {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center; }
+              body .card .card_text .card_text_info .data .data_price .data_price_number {
+                margin: 0;
+                color: #7280a7;
+                font-size: 16.3px; }
+          body .card .card_text .card_text_info .change {
+            font-size: 14px;
+            font-weight: 900; }
+            body .card .card_text .card_text_info .change .change_anchor {
+              color: #3829e0; }
+        body .card .card_text .card_text_pay {
+          margin: 0;
+          text-align: center;
+          margin-top: 32px; }
+          body .card .card_text .card_text_pay .card_text_pay_button {
+            width: 356px;
+            background-color: #3829e0;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 13px 20px 5px rgba(114, 128, 167, 0.3); }
+            body .card .card_text .card_text_pay .card_text_pay_button a {
+              text-decoration: none; }
+            body .card .card_text .card_text_pay .card_text_pay_button .card_text_pay_button_paragraph {
+              font-family: 'Red Hat Display', sans-serif;
+              font-size: 15px;
+              font-weight: 700;
+              color: #f5f7ff;
+              letter-spacing: 0.3px; }
+        body .card .card_text .card_text_cancel {
+          margin: 0;
+          text-align: center;
+          margin-top: 33px; }
+          body .card .card_text .card_text_cancel .card_text_cancel_button {
+            width: 275px;
+            background-color: transparent;
+            border-radius: 15px;
+            border: none; }
+            body .card .card_text .card_text_cancel .card_text_cancel_button a {
+              text-decoration: none; }
+            body .card .card_text .card_text_cancel .card_text_cancel_button .card_text_cancel_button_paragraph {
+              font-size: 15px;
+              font-weight: 900;
+              color: #7280a7;
+              margin: 0;
+              font-family: 'Red Hat Display', sans-serif; } }

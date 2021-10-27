@@ -4,34 +4,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Order summary card</title>
 
+  <!--GOOGLE FONTS-->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="public/css/contenido.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
+  <main>
+    <div>
+      <!--CARDBOARD-->
+      <div class="card">
+        <!--IMAGE-->
+        <div class="card_img">
+          <!-- <img src="public/images/illustration-hero.svg" alt="" class="img"> -->
+        </div>
+        <!--TEXTS-->
+        <div class="card_text">
+          <!--TITLE-->
+          <div class="card_text_title">
+            <p class="title">Order Summary</p>
+          </div>
+          <!--PARAGRAPH-->          
+          <div class="card_text_paragraph">
+            <p class="paragraph">
+              You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+            </p>
+          </div>
+          <!--INFO-->
+          <div class="card_text_info">
+            <div class="musicimg">
+              <img src="public/images/icon-music.svg" alt="" class="music">
+            </div>
+            <div class="data">
+              <div class="data_title">
+                <p class="data_title_paragrap">
+                  Annual Plan
+                </p>
+              </div>
+              <div class="data_price">
+                <p class="data_price_number">
+                  $59.99/year
+                </p>
+              </div>
+            </div>
+            <div class="change">
+              <a href="" class="change_anchor">
+                Change
+              </a>
+            </div>
+          </div>
+          <!--PAY BUTTON-->
+          <div class="card_text_pay">
+            <button class="card_text_pay_button">
+              <a href="">
+                <p class="card_text_pay_button_paragraph">Proceed to Payment</p>
+              </a>
+            </button>
+          </div>
+          <!--CANCEL BUTTON-->          
+          <div class="card_text_cancel">
+            <button class="card_text_cancel_button">
+              <a href="">
+                <p class="card_text_cancel_button_paragraph">Cancel Order</p>
+              </a>
+              
+            </button>
+          </div>
+        </div>
+      </div>
 
-  Order Summary
+    </div>
+  </main>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
   
-  <div class="attribution">
+
+  
+  
+
+  
+
+  
+  
+  
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
