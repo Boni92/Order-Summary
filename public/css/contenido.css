@@ -30,6 +30,8 @@ body {
       font-family: 'Red Hat Display', sans-serif;
       background-color: #ffffff; }
       body .card .card_text .card_text_title {
+        font-family: 'Red Hat Display', sans-serif;
+        text-decoration: none;
         text-align: center;
         font-weight: 900;
         font-size: 11px;
