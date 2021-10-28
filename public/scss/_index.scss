@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     background:  url(../images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
-    background-position: left top;
+    background-position: center top;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     height: 709px;
@@ -123,9 +123,7 @@ body{
                     border-radius: 15px;
                     border: none;
                     box-shadow: 0 13px 20px 5px hsla(224, 23%, 55%, 0.3);
-                    a{
-                        text-decoration: none;
-                    }
+                    cursor: pointer;
                     .card_text_pay_button_paragraph{
                         font-size: 14px;
                         font-weight: 700;
@@ -143,9 +141,7 @@ body{
                     background-color: transparent;
                     border-radius: 15px;
                     border: none;
-                    a{
-                        text-decoration: none;
-                    }
+                    cursor: pointer;
                     .card_text_cancel_button_paragraph{
                         font-size: 14px;
                         font-weight: 700;
@@ -205,9 +201,12 @@ body{
                 font-family: 'Red Hat Display', sans-serif;
                 background-color: #ffffff;
                 .card_text_title{
+                    font-family: 'Red Hat Display', sans-serif;
+
+                    text-decoration: none;
                     text-align: center;
                     font-weight: 900;
-                    font-size: 28px;
+                    font-size: 14px;
                     color: hsl(223, 47%, 23%);
                     margin-top: 54.5px-14.96px+6px;
                     .title{
@@ -299,9 +298,7 @@ body{
                         border-radius: 10px;
                         border: none;
                         box-shadow: 0 13px 20px 5px hsla(224, 23%, 55%, 0.3);
-                        a{
-                            text-decoration: none;
-                        }
+                        cursor: pointer;
                         .card_text_pay_button_paragraph{
                             font-family: 'Red Hat Display', sans-serif;
                             font-size: 15px;
@@ -321,10 +318,7 @@ body{
                         background-color: transparent;
                         border-radius: 15px;
                         border: none;
-                        a{
-                            text-decoration: none;
-
-                        }
+                        cursor: pointer;
                         .card_text_cancel_button_paragraph{
                             font-size: 15px;
                             font-weight: 900;

@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: url(../images/pattern-background-mobile.svg), #e0e8ff;
-  background-position: left top;
+  background-position: center top;
   background-repeat: no-repeat;
   background-blend-mode: darken;
   height: 709px; }
@@ -104,9 +104,8 @@ body {
           background-color: #3829e0;
           border-radius: 15px;
           border: none;
-          box-shadow: 0 13px 20px 5px rgba(114, 128, 167, 0.3); }
-          body .card .card_text .card_text_pay .card_text_pay_button a {
-            text-decoration: none; }
+          box-shadow: 0 13px 20px 5px rgba(114, 128, 167, 0.3);
+          cursor: pointer; }
           body .card .card_text .card_text_pay .card_text_pay_button .card_text_pay_button_paragraph {
             font-size: 14px;
             font-weight: 700;
@@ -119,9 +118,8 @@ body {
           width: 275px;
           background-color: transparent;
           border-radius: 15px;
-          border: none; }
-          body .card .card_text .card_text_cancel .card_text_cancel_button a {
-            text-decoration: none; }
+          border: none;
+          cursor: pointer; }
           body .card .card_text .card_text_cancel .card_text_cancel_button .card_text_cancel_button_paragraph {
             font-size: 14px;
             font-weight: 700;
@@ -169,9 +167,11 @@ body {
         font-family: 'Red Hat Display', sans-serif;
         background-color: #ffffff; }
         body .card .card_text .card_text_title {
+          font-family: 'Red Hat Display', sans-serif;
+          text-decoration: none;
           text-align: center;
           font-weight: 900;
-          font-size: 28px;
+          font-size: 14px;
           color: #1f2f56;
           margin-top: 45.54px; }
           body .card .card_text .card_text_title .title {
@@ -246,9 +246,8 @@ body {
             background-color: #3829e0;
             border-radius: 10px;
             border: none;
-            box-shadow: 0 13px 20px 5px rgba(114, 128, 167, 0.3); }
-            body .card .card_text .card_text_pay .card_text_pay_button a {
-              text-decoration: none; }
+            box-shadow: 0 13px 20px 5px rgba(114, 128, 167, 0.3);
+            cursor: pointer; }
             body .card .card_text .card_text_pay .card_text_pay_button .card_text_pay_button_paragraph {
               font-family: 'Red Hat Display', sans-serif;
               font-size: 15px;
@@ -263,9 +262,8 @@ body {
             width: 275px;
             background-color: transparent;
             border-radius: 15px;
-            border: none; }
-            body .card .card_text .card_text_cancel .card_text_cancel_button a {
-              text-decoration: none; }
+            border: none;
+            cursor: pointer; }
             body .card .card_text .card_text_cancel .card_text_cancel_button .card_text_cancel_button_paragraph {
               font-size: 15px;
               font-weight: 900;
