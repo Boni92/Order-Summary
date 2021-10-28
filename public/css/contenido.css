@@ -2,17 +2,18 @@ body {
   margin: 0;
   padding: 0;
   background: url(../images/pattern-background-mobile.svg), #e0e8ff;
-  background-position: top;
+  background-position: left top;
   background-repeat: no-repeat;
   background-blend-mode: darken;
-  height: 709px;
-  width: 375px;
-  border: solid 2px rgba(224, 232, 255, 0); }
+  height: 709px; }
+  body main {
+    width: 323.7px;
+    margin-left: auto;
+    margin-right: auto; }
   body .card {
     width: 323.7px;
     height: 564.5px;
     border-radius: 20px;
-    margin: auto;
     margin-top: 70px;
     background-color: #ffffff;
     box-shadow: 0 13px 15px 5px rgba(114, 128, 167, 0.13); }
@@ -127,7 +128,7 @@ body {
             color: #7280a7;
             margin: 0; }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
   body {
     margin: 0;
     padding: 0;
@@ -139,12 +140,19 @@ body {
     background-size: 110%;
     background-blend-mode: darken;
     font-family: 'Red Hat Display', sans-serif; }
+    body main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 447.5px;
+      margin-left: auto;
+      margin-right: auto; }
     body .card {
       width: 447.5px;
       height: 694.9px;
       border-radius: 20px;
-      margin-left: 476.25px;
-      margin-right: 476.25px;
+      margin-left: 34vw;
+      margin-right: 34vw;
       margin-top: 100px;
       background-color: #ffffff;
       box-shadow: 0 13px 15px 5px rgba(114, 128, 167, 0.13); }
