@@ -1,165 +1,163 @@
 //mobile first - 375px
-@media screen and (min-width: 375px) {
-    body{
-        margin: 0;
-        padding: 0;
-        background:  url(../images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
-        background-position: top;
-        background-repeat: no-repeat;
-        background-blend-mode: darken;
-        height: 709px;
-        width: 375px;
-        border: solid 2px hsla(225, 100%, 94%, 0);
-        .card{
-            width: 323.7px; //323.7px
-            height: 564.5px; //564.5px
-            border-radius: 20px;
-            margin: auto;
-            margin-top: 70px;
+
+body{
+    margin: 0;
+    padding: 0;
+    background:  url(../images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 709px;
+    width: 375px;
+    border: solid 2px hsla(225, 100%, 94%, 0);
+    .card{
+        width: 323.7px; //323.7px
+        height: 564.5px; //564.5px
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 70px;
+        background-color: #ffffff;
+        box-shadow: 0 13px 15px 5px hsla(224, 23%, 55%, 0.13);
+        .card_img{
+            height: 157.5px; //157.5px
+            width: auto;
+            background-image: url("../images/illustration-hero.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .card_text{
+            font-family: 'Red Hat Display', sans-serif;
             background-color: #ffffff;
-            box-shadow: 0 13px 15px 5px hsla(224, 23%, 55%, 0.13);
-            .card_img{
-                height: 157.5px; //157.5px
-                width: auto;
-                background-image: url("../images/illustration-hero.svg");
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: contain;
-                border-top-left-radius: 20px;
-                border-top-right-radius: 20px;
+            .card_text_title{
+                text-align: center;
+                font-weight: 900;
+                font-size: 23px;
+                color: hsl(223, 47%, 23%);
+                margin-top: 38.3px-6.96px+6px;
+                .title{
+                    margin: 0;
+                    padding: 0;
+                }
             }
-            .card_text{
-                font-family: 'Red Hat Display', sans-serif;
-                background-color: #ffffff;
-                .card_text_title{
-                    text-align: center;
-                    font-weight: 900;
-                    font-size: 23px;
-                    color: hsl(223, 47%, 23%);
-                    margin-top: 38.3px-6.96px+6px;
-                    .title{
-                        margin: 0;
-                        padding: 0;
-                    }
-                }
-                .card_text_paragraph{
-                    margin:0;
-                    margin-top: 28.4px-5.22px-6px;
-                    text-align: center;
-                    font-weight: 500;
-                    font-size: 15px;
-                    letter-spacing: 0.01em;
-                    line-height: 26px;
-                    width: 265px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    color: hsl(224, 23%, 55%);
-                }
-                .card_text_info{
+            .card_text_paragraph{
+                margin:0;
+                margin-top: 28.4px-5.22px-6px;
+                text-align: center;
+                font-weight: 500;
+                font-size: 15px;
+                letter-spacing: 0.01em;
+                line-height: 26px;
+                width: 265px;
+                margin-left: auto;
+                margin-right: auto;
+                color: hsl(224, 23%, 55%);
+            }
+            .card_text_info{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 24px;
+                width: 278px;
+                height: 81px;
+                background: hsl(225, 100%, 98%);
+                border-radius: 15px;
+                .musicimg{
                     display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
+                    flex-direction: column;
                     align-items: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                    margin-top: 24px;
-                    width: 278px;
-                    height: 81px;
-                    background: hsl(225, 100%, 98%);
-                    border-radius: 15px;
-                    .musicimg{
+                    justify-content: center;
+                }
+                .data{
+                    display: flex;
+                    flex-direction: column;
+                    transform: translateX(-15px);
+                    gap: 37px*0.1;
+                    font-size: 14px;
+                    .data_title{
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         justify-content: center;
+                        .data_title_paragrap{
+                            margin: 0;
+                            color: hsl(223, 47%, 23%);
+                                font-weight: 900;
+                        }
                     }
-                    .data{
+                    .data_price{
                         display: flex;
                         flex-direction: column;
-                        transform: translateX(-15px);
-                        gap: 37px*0.1;
-                        font-size: 14px;
-                        .data_title{
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: center;
-                            .data_title_paragrap{
-                                margin: 0;
-                                color: hsl(223, 47%, 23%);
-                                    font-weight: 900;
-                            }
-                        }
-                        .data_price{
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: center;
-                            .data_price_number{
-                                margin: 0;
-                                color: hsl(224, 23%, 55%);
-                            }
-                        }
-
-                    }
-                    .change{
-                        font-size: 13px;
-                        font-weight: 700;
-                        .change_anchor{
-                            color: hsl(245, 75%, 52%);
-                        }
-                    }
-                    
-                }
-                .card_text_pay{
-                    margin: 0;
-                    text-align: center;
-                    margin-top: 23px;
-                    .card_text_pay_button{
-                        width: 275px;
-                        background-color: hsl(245, 75%, 52%);
-                        border-radius: 15px;
-                        border: none;
-                        box-shadow: 0 13px 20px 5px hsla(224, 23%, 55%, 0.3);
-                        a{
-                            text-decoration: none;
-                        }
-                        .card_text_pay_button_paragraph{
-                            font-size: 14px;
-                            font-weight: 700;
-                            color: hsl(225, 100%, 98%);
-                        }
-                    }
-                }
-                .card_text_cancel{
-                    
-                    margin: 0;
-                    text-align: center;
-                    margin-top: 26px-6px;
-                    .card_text_cancel_button{
-                        width: 275px;
-                        background-color: transparent;
-                        border-radius: 15px;
-                        border: none;
-                        a{
-                            text-decoration: none;
-                        }
-                        .card_text_cancel_button_paragraph{
-                            font-size: 14px;
-                            font-weight: 700;
-                            color: hsl(224, 23%, 55%);
+                        align-items: center;
+                        justify-content: center;
+                        .data_price_number{
                             margin: 0;
+                            color: hsl(224, 23%, 55%);
                         }
+                    }
+
+                }
+                .change{
+                    font-size: 13px;
+                    font-weight: 700;
+                    .change_anchor{
+                        color: hsl(245, 75%, 52%);
+                    }
+                }
+                
+            }
+            .card_text_pay{
+                margin: 0;
+                text-align: center;
+                margin-top: 23px;
+                .card_text_pay_button{
+                    width: 275px;
+                    background-color: hsl(245, 75%, 52%);
+                    border-radius: 15px;
+                    border: none;
+                    box-shadow: 0 13px 20px 5px hsla(224, 23%, 55%, 0.3);
+                    a{
+                        text-decoration: none;
+                    }
+                    .card_text_pay_button_paragraph{
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: hsl(225, 100%, 98%);
                     }
                 }
             }
-
+            .card_text_cancel{
+                
+                margin: 0;
+                text-align: center;
+                margin-top: 26px-6px;
+                .card_text_cancel_button{
+                    width: 275px;
+                    background-color: transparent;
+                    border-radius: 15px;
+                    border: none;
+                    a{
+                        text-decoration: none;
+                    }
+                    .card_text_cancel_button_paragraph{
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: hsl(224, 23%, 55%);
+                        margin: 0;
+                    }
+                }
+            }
         }
-        
 
     }
-}
+    
 
+}
 @media screen and (min-width: 1440px) {
     body{
         margin: 0;
